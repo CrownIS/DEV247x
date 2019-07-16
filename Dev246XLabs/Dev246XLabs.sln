@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module1Lab01WebServer", "Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module1Lab01WebClient", "Module1Lab01WebClient\Module1Lab01WebClient.csproj", "{E673AA26-215C-43B7-9CFD-0D25BC1DC217}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Module 1", "Module 1", "{1A1AB756-0990-4AD5-8201-2F85ABCB3AFA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab 01", "Lab 01", "{C9DB844D-DAFA-45A9-A503-1BB629FC4B04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E1A9E210-522B-45E3-87E8-44293E479F5F} = {C9DB844D-DAFA-45A9-A503-1BB629FC4B04}
+		{E673AA26-215C-43B7-9CFD-0D25BC1DC217} = {C9DB844D-DAFA-45A9-A503-1BB629FC4B04}
+		{C9DB844D-DAFA-45A9-A503-1BB629FC4B04} = {1A1AB756-0990-4AD5-8201-2F85ABCB3AFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C4BD2BA0-39C4-4938-9CF1-6C0B1C1F7A3E}
