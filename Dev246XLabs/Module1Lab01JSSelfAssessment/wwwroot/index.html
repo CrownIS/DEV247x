@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>SeDes</title>
+    <script>
+        var p1 = { id: 101, name: 'Product-101', price: 99 };
+
+        var jsonStr = JSON.stringify(p1);
+        document.write(jsonStr);
+        document.write('<br/>');
+
+        document.write("========================");
+        document.write('<br/>');
+
+        var p2 = JSON.parse(jsonStr);
+        document.write("ID:" + p2.id + " Name:" + p2.name + " Price:" + p2.price);
+        document.write('<br/>');
+    </script>
+</head>
+<body>
+</body>
+</html>
