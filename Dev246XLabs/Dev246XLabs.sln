@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lab 01", "Lab 01", "{C9DB84
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module1Lab02CSharpSeDes", "Module1Lab02CSharpSeDes\Module1Lab02CSharpSeDes.csproj", "{139B460B-A4F1-4F3B-9BB4-87D8289C255F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module1Lab02JSSeDEs", "Module1Lab02JSSeDEs\Module1Lab02JSSeDEs.csproj", "{E5E6B356-79F9-4952-867A-BF7B6432278B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{139B460B-A4F1-4F3B-9BB4-87D8289C255F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{139B460B-A4F1-4F3B-9BB4-87D8289C255F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{139B460B-A4F1-4F3B-9BB4-87D8289C255F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E6B356-79F9-4952-867A-BF7B6432278B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E6B356-79F9-4952-867A-BF7B6432278B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E6B356-79F9-4952-867A-BF7B6432278B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E6B356-79F9-4952-867A-BF7B6432278B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
